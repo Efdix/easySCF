@@ -87,7 +87,7 @@ saveH5(sce, "data.h5")
 以下是一个简单的示例，展示了如何使用这些函数：
 
 ```python
-from easySCF import loadH5
+from easySCFpy import loadH5
 sce = loadH5("data.h5")
 ```
 
@@ -113,6 +113,6 @@ sce = loadH5("data.h5")
 以下是一个简单的示例，展示了如何使用这些函数：
 
 ```python
-from easySCF import saveH5
+from easySCFpy import saveH5
 saveH5(sce, "data.h5")
 ```
