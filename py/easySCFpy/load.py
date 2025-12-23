@@ -275,7 +275,7 @@ def read_h5_to_scanpy(
         if "graphs" in h5.keys():
             adata.obsp = read_elem(h5["graphs"])
         print("Reading commands data")
-        if "commands" in h5.keys():
+        if "uns" in h5.keys():
             adata.uns = h5_to_uns_dict(h5, "uns")
         print("Reading images data")
         if "images" in h5.keys():
